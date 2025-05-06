@@ -1,0 +1,165 @@
+# 🧠 System Design Roadmap for MERN Stack Developers
+
+> A complete step-by-step guide for MERN stack developers to learn and master **System Design**, both for interviews and real-world scalable app development.
+
+---
+
+## 🧭 Roadmap Overview
+
+| Phase | Focus Area                         | Duration      |
+|-------|------------------------------------|---------------|
+| 1     | Basics of System Design            | 1–2 weeks     |
+| 2     | Core Concepts                      | 2–3 weeks     |
+| 3     | Deep Dive into System Components   | 3–4 weeks     |
+| 4     | Real-World Scalable Systems (HLD)  | 3–4 weeks     |
+| 5     | Low-Level Design (LLD)             | 2 weeks       |
+| 6     | DevOps & Production Readiness      | 2 weeks       |
+
+---
+
+## 📍 Phase 1: Basics of System Design
+
+### ✅ Topics
+- What is System Design? Why it's important
+- High-Level Design (HLD) vs Low-Level Design (LLD)
+- Client-Server Architecture
+- Web Requests (HTTP, REST, WebSocket basics)
+- Scalability: Vertical vs Horizontal
+- Latency vs Throughput
+
+### ✅ MERN Stack Relevance
+- Understand how apps work under the hood
+- Realize limits of Express, MongoDB, etc.
+
+---
+
+## 📍 Phase 2: Core Concepts
+
+### ✅ Topics
+- Load Balancers
+- Caching (Redis, Memcached)
+- Database Indexing & Query Optimization
+- SQL vs NoSQL, CAP Theorem
+- Replication, Sharding
+- Consistent Hashing
+- CDN (Cloudflare, Akamai)
+- Rate Limiting
+- API Gateway, Reverse Proxy
+- Authentication vs Authorization
+
+### ✅ MERN Stack Relevance
+- Scaling Express APIs
+- MongoDB performance optimization
+- Redis caching strategies
+
+---
+
+## 📍 Phase 3: System Components Deep Dive
+
+### ✅ Topics
+- JWT vs OAuth2 Authentication
+- Message Queues (Kafka, RabbitMQ, Redis Streams)
+- File Storage (AWS S3, Cloudinary)
+- Event-driven Architecture
+- Database Transactions (ACID vs BASE)
+- Search Systems (ElasticSearch)
+
+### ✅ MERN Stack Relevance
+- Decouple services using queues
+- Optimize image/video storage
+- Build robust search and auth systems
+
+---
+
+## 📍 Phase 4: Real-world Scalable System Design (HLD)
+
+### ✅ Sample Design Problems
+- URL Shortener (Bit.ly)
+- Instagram Feed System
+- WhatsApp Chat Application
+- YouTube-like Video Streaming
+- E-commerce Platform (Shopeasy)
+- Food Delivery App (Zomato, UberEats)
+
+### ✅ Key Skills
+- Architecture Diagrams
+- Data Flow & Scaling Bottlenecks
+- Choosing the Right Tools
+
+---
+
+## 📍 Phase 5: Low-Level Design (LLD)
+
+### ✅ Topics
+- SOLID Principles
+- Design Patterns (Factory, Singleton, Observer, etc.)
+- Modular Architecture
+- Interface Design
+- Dependency Injection
+
+### ✅ MERN Stack Relevance
+- Reusable service layers in Express
+- Better folder/file structure
+- Cleaner, testable code
+
+---
+
+## 📍 Phase 6: DevOps & Production Readiness
+
+### ✅ Topics
+- Docker & Containerization
+- CI/CD (GitHub Actions, Jenkins)
+- Nginx, PM2, Node.js Clustering
+- Monitoring (Prometheus, Grafana)
+- Logging (Winston, ELK Stack)
+- Circuit Breakers, Rate Limiting
+
+### ✅ MERN Stack Relevance
+- Deploy robust, production-ready systems
+- Containerize and monitor full-stack apps
+
+---
+
+## 📘 Recommended Resources
+
+### 🎥 YouTube Channels
+- [Gaurav Sen – System Design](https://www.youtube.com/c/GauravSen)
+- [Tech Dummies Narendra L – System Design](https://www.youtube.com/c/TechDummiesNarendraL)
+
+### 📚 Books
+- **Designing Data-Intensive Applications** – Martin Kleppmann
+- **System Design Interview Vol 1 & 2** – Alex Xu
+- **The Pragmatic Programmer** – Andy Hunt
+
+### 💻 Practice Tools
+- [Excalidraw](https://excalidraw.com/) – Draw architecture diagrams
+- [System Design Primer (GitHub)](https://github.com/donnemartin/system-design-primer)
+
+---
+
+## 🛠️ Project-based Learning
+
+| Project             | Concepts Practiced                                      |
+|---------------------|----------------------------------------------------------|
+| Instagram Clone     | Feed system, caching, user uploads, database design      |
+| E-commerce Platform | Payments, search, cart, order system, scalable auth      |
+| Real-time Chat App  | WebSockets, queues, message history                      |
+| Video Hosting Site  | File storage, CDN, transcoding, streaming                |
+
+---
+
+## 🚀 Final Goal
+
+By completing this roadmap, you will be able to:
+- Design full systems from scratch (both HLD and LLD)
+- Choose the right tech stack for each component
+- Scale your MERN apps like a senior engineer
+- Ace System Design Interviews confidently
+
+---
+
+## 📦 Optional: Export as PDF or Diagram
+
+You can export this markdown file as a PDF or use the topics to build a visual roadmap diagram using [Excalidraw](https://excalidraw.com/) or [Whimsical](https://whimsical.com/).
+
+---
